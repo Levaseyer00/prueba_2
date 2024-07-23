@@ -1,0 +1,50 @@
+
+a{
+    color: white !important;
+}
+
+.z-1{
+    z-index: 10;
+}
+
+.z-0{
+    z-index: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+body {
+    scroll-behavior: smooth;
+    max-width: auto;
+    min-width: 320px;
+    }
+
+.container-fluyd {
+    position: relative;
+    margin: auto;    
+}
+
+
+.navbar-brand{
+    width: 50px;
+}
+
+#footer-icons {
+    font-size: 30px;
+}
+
+footer a {
+    padding: 0 3px;
+}
+
+/*Seccion oculta*/
+@media (max-width: 576px){
+    #Quienes-somos{
+        display: none;
+    }
+}
+
